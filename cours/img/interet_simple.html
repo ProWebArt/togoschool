@@ -1,0 +1,239 @@
+<html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+
+<h2 class="titre">I. Définition</h2>
+<p class="contenu">
+	C'est la rémunération d'un capital placé ou prêté pendant un temps donné selon un taux d'intérêt précis. Ainsi tout placement ou prêt se caractérise par:<br>
+	
+	<ul>
+		<li>Le capital placé ou prêté</li>
+		<li>La durée du placement ou du prêt</li>
+		<li>Le taux d'intérêt en pourcentage et par convention annuelle</li>
+	</ul>
+	Exemple: Taux d'intérêt de 10%: Sur chaque 100<sup>F</sup> placé ou prêté pendant un an, il y a un intérêt de 10<sup>F</sup>
+</p>
+
+<h2 class="titre">II. Calcul d'intérêt</h2>
+<h3 class="sous_titre">1. Formule de base</h3>
+L'intérêt simple <var>I</var> produit par un capital <var>C</var> placé ou prêté au taux <var>t%</var> pendant <var>n</var> années est:<br>
+<img src="http://latex.codecogs.com/gif.latex?I=\frac{ctn}{100}" /><br>
+On peut aussi utiliser  la même formule lorsque le taux d'intérêt et la durée ont la même unité<br>
+Exemple: Taux semestriel et la durée en semestre ou taux mensuel et la durée en mois<br>
+<h4><center>Exercice</center></h4>
+Trois capitaux dont les montants sont en progression arithmétique croissante ont été placé pendant deux ans aux taux d'intérêt de 11%. L'intérêt total produit est 138 600<sup></sup>. Les montants du 3<sup>eme</sup> et du 1<sup>er</sup> capital diffère de 240 000<sup>F</sup>. Calculer les trois capitaux<br>
+
+<h4><center>Solution</center></h4>
+
+<var>c<sub>1</sub>, c<sub>2</sub> et c<sub>3</sub> </var> sont en progression arithmétique croissante<br>
+<var>c<sub>2</sub> = c<sub>1</sub> + r &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n = 2ans</var><br>
+
+<var>c<sub>3</sub> = c<sub>1</sub> + 2r &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; t% = 11%</var><br>
+<var> I<sub>1</sub> + I<sub>2</sub> + I<sub>3</sub> = 138 600</var><br>
+<var>C<sub>3</sub> - C<sub>1</sub> = 240 000</var><br> 
+Calculons la raison<br>
+<var>C<sub>1</sub> + 2r - C<sub>1</sub> = 240 000</var><br>
+<var>r = 120 000</var><br>
+Calculons les trois capitaux<br>
+
+<img src="http://latex.codecogs.com/gif.latex?I_{1}+I_{2}+I_{3}=\frac{c_{1}*11*2}{100}+\frac{c_{2}*11*2}{100}+\frac{c_{3}*11*2}{100}" /><br>
+
+<img src="http://latex.codecogs.com/gif.latex?138 600=0,22c_{1}+0,22c_{2}+0,22c_{3}" /><br>
+Je vous laisse le soins de faire les calculs nécessaires jusqu'a trouver comme valeur:<br>
+
+<var>c<sub>1</sub> = 90 000</var><br>
+<var>c<sub>2</sub> = 210 000</var><br>
+<var>c<sub>3</sub> = 330 000</var><br>
+Si vous n'arrivez pas  à trouver les réponses, posez la question, nous seront ravis de vous aider.
+<h3 class="sous_titre">2. Autres formules de calcul</h3>
+Pour calculer I au taux annuel lorsque l'unité de la durée varie, il faut convertir la durée du placement ou du prêt en année: on obtient alors les formules suivantes:<br>
+
+<h5>2.1 Cas où la durée est en mois</h5>
+Les <var>n</var> moi font <sup>n</sup>&frasl;<sub>12</sub></var> années<br>
+<img src="http://latex.codecogs.com/gif.latex?I=\frac{ctn}{1200}" /><br>
+
+<h5>2.2 Cas où la durée est en jours</h5>
+<ol type="a">
+
+	<li>Durée en jour de l'année commerciale:  intérêt commercial</li>
+	Les <var>n</var> jours font <sup>n</sup>&frasl;<sub>360</sub></var> années commerciales<br>
+	<img src="http://latex.codecogs.com/gif.latex?I=\frac{ctn}{36000}" /><br>
+	<li>Intérêt civil</li>
+		<ul>
+			<li>Durée en jours de l'année civile ordinaire</li>
+			Les <var>n</var> jours font <sup>n</sup>&frasl;<sub>365</sub></var> années civile ordinaire<br>
+	<img src="http://latex.codecogs.com/gif.latex?I=\frac{ctn}{36500}" /><br>
+	
+				<li>Durée en jours de l'année civile bissextile</li>
+			Les <var>n</var> jours font <sup>n</sup>&frasl;<sub>366</sub></var> années civile bissextile<br>
+	<img src="http://latex.codecogs.com/gif.latex?I=\frac{ctn}{36600}" /><br>
+
+			
+		</ul>
+	
+	<li>Différence entre intérêts en jours de l'année commerciale et celui en jours de l'année civile ordinaire</li>
+	
+	<var>Soit I l'intérêt en jour de l'année commerciale et <br> I' l'intérêt en jour de l'année civile ordinaire</var><br>
+	<img src="http://latex.codecogs.com/gif.latex?I-I'=I*\frac{1}{73}" /><br>
+	<img src="http://latex.codecogs.com/gif.latex?I-I'=I'*\frac{1}{72}" /><br>
+
+</ol>
+
+<h5>2.3 Intérêt simple à la caisse d'épargne</h5>
+<ol type="a">
+	<li>Le nombre de quinzaine</li>
+	A la caisse d'épargne la durée doit être exprimé en quinzaines. Pour déterminer le nombre de quinzaine, il faut respecter les règles suivantes:<br>
+	Règle1:<br>
+	Tout versement effectué à la caisse d'épargne est supposé l'être le 16 ou le 1<sup>er</sup> qui suit immédiatement la date du dépôt<br>
+	Exemple:<br>
+	<table border>
+		<tr>
+			<td>date</td>
+			<td>libellé</td>
+			<td>date de valeur</td>
+		</tr>
+		
+		<tr>
+			<td>25/09</td>
+			<td>versement</td>
+			<td>01/10</td>
+		</tr>
+		
+		<tr>
+			<td>02/10</td>
+			<td>versement</td>
+			<td>16/10</td>
+		</tr>
+	</table>
+	
+	<br>
+	Règle2:<br>
+	Tout retrait effectué à la caisse d'épargne est supposé l'être le 16 ou le 1<sup>er</sup> qui précède la date de retrait<br>
+	Exemple:<br>
+	
+	<table border>
+		<tr>
+			<td>date</td>
+			<td>libellé</td>
+			<td>date de valeur</td>
+		</tr>
+		
+		<tr>
+			<td>20/08</td>
+			<td>retrait</td>
+			<td>16/08</td>
+		</tr>
+		
+		<tr>
+			<td>13/09</td>
+			<td>retrait</td>
+			<td>01/09</td>
+		</tr>
+	</table>
+	
+	<li>Calcul de l'intérêt simple</li>
+	Les <var>n</var> quinzaines font <sup>n</sup>&frasl;<sub>24</sub></var> années <br>
+	<img src="http://latex.codecogs.com/gif.latex?I=\frac{ctn}{2400}" /><br>
+	
+	Exercice:<br>
+	Un élève a effectué les opération suivante à la caisse d'épargne:<br>
+	26/12/04: ouverture avec un versement de 25 000<br>
+	10/03/05: retrait de 8000<br>
+	30/06/05: versement de 5000<br>
+	12/10/05: retrait de 6000<br>
+	14/12/05: versement de 4000<br>
+	Calculer au taux de 6% l'intérêt produit le 01/01/06<br>
+	
+	<h4><center>Solution</center></h4>
+	
+	<table border>
+		<tr>
+			<td>Date</td>
+			<td>Libellé</td>
+			<td>Montant</td>
+			<td>solde</td>
+			<td>Date de valeur</td>
+			<td>Quinzaine</td>
+			<td>Intérêt</td>
+		</tr>
+		
+		<tr>
+			<td>26/12/04</td>
+			<td>ouverture</td>
+			<td>25000</td>
+			<td>25000</td>
+			<td>01/01/05</td>
+			<td>4</td>
+			<td>250</td>
+		</tr>
+		
+		<tr>
+			<td>10/03/05</td>
+			<td>retrait</td>
+			<td>8000</td>
+			<td>17000</td>
+			<td>01/03/05</td>
+			<td>8</td>
+			<td>340</td>
+		</tr>
+		
+		<tr>
+			<td>30/06/05</td>
+			<td>versement</td>
+			<td>5000</td>
+			<td>22000</td>
+			<td>01/07/05</td>
+			<td>6</td>
+			<td>330</td>
+		</tr>
+		
+		<tr>
+			<td>12/06/05</td>
+			<td>retrait</td>
+			<td>6000</td>
+			<td>16000</td>
+			<td>01/10/05</td>
+			<td>5</td>
+			<td>200</td>
+		</tr>
+		
+		<tr>
+			<td>14/12/05</td>
+			<td>versement</td>
+			<td>4000</td>
+			<td>20000</td>
+			<td>16/12/05</td>
+			<td>1</td>
+			<td>50</td>
+		</tr>
+		
+		<tr>
+			<td>01/01/06</td>
+			<td>arrêt</td>
+			<td>-</td>
+			<td>-</td>
+			<td>01/01/06</td>
+			<td>-</td>
+			<td>1170</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2">Capitalisation des intérêts</td>
+			<td>1170</td>
+			<td>21170</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			
+		</tr>
+	
+	</table>
+
+</ol>
+
+<h3 class="sous_titre">Calcul de l'intérêt simple par la methode de nombre et diviseur</h3>
+
+</body>
+</html>

@@ -1,0 +1,332 @@
+<html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+
+<h2 class="titre">I. Definition et exemple</h2>
+<h3 class="sous_titre">1. Definition</h3>
+<p class="contenu">
+	<ul>
+		<li>
+			On dit qu'un capital est placé à interêt composé lorsqu'à la fin de chaque periode (année) les intérêts simples produits sont ajoutés au capital initial pour former un nouveau capital qui produira d'intérêts simple à son tours la période suivante et ainsi de suite. On dit que les intérêts se capitalisent.
+		</li>
+		
+		<li>
+		
+			La période: C'est l'interval de temps entre deux capitalisation consécutives. L'unité de période la plus fréquemment utilisée dans les opérations financières à long terme est l'année, quelque fois elle peut être le semestre, le trimestre ou le mois
+		
+		</li>
+		
+		<li>
+			Le taux: D'une manière générale, le taux d'intérêt est exprimé en % c'est à dire un intérêt rapporté par un capital de 100<sup>F</sup> pendant 1 an. Pour la commodité des calculs, on considère ici un intérêt par un capital de 1<sup>F</sup><br>
+			Exemple: Un taux de 12% correspond à <br>
+			<img src="http://latex.codecogs.com/gif.latex?\frac{12}{100}=0.12=i" />
+			
+		</li>
+		
+		<li>
+			Le capital placé est appelé le principal ou la valeur actuelle
+		</li>
+		
+		<li>
+			La somme constituée par le capital placé et ses intérêts accumulés est appelée: La valeur acquise ou la valeur définitive
+		</li>
+		
+		<li>
+			La difference fondamentale entre l'intérêt composé et l'intérêt simple réside dans la capitalisation, le fait d'ajouter les intérêts simple au capital à la fin de chaque période pour que le tout ramène un intérêt global à la fin de la période suivante
+		</li>
+	</ul>
+</p>
+
+<h3 class="sous_titre">2. Exemple</h3>
+
+<p class="contenu">
+
+	Que devient un capital de 100 000<sup>F</sup> placé à intérêt composé au taux de 10% l'an pendant 4 ans<br>
+	
+	<h4><center>Solution</center></h4>
+	<table border>
+            <tr style="font-weight: bold;">
+                <td>Période(année)</td>
+                <td>Capital placé en  debut de période</td>
+                <td>Intérêt produit pendant la période</td>
+                <td>Valeur acquise</td>
+                
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1 000 000</td>
+                <td>100 000</td>
+                <td>1 100 000</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1 100 000</td>
+                <td>110 000</td>
+                <td>1 210 000</td>
+                
+            </tr>
+            
+            <tr>
+                <td>3</td>
+                <td>1 210 000</td>
+                <td>121 000</td>
+                <td>1 331 000</td>
+               
+            </tr>
+            
+            <tr>
+                <td>4</td>
+                <td>1 331 000</td>
+                <td>133 100</td>
+                <td>1 464 100</td>
+                
+            </tr>
+        </table>
+		
+		Conclusion: Le capital de 1 000 000<sup>F</sup> placé à intérêt composé au taux de 10% l'an pendant 4 ans est devenu 1 464 100<sup>F</sup>
+	
+</p>
+
+<h2 class="titre">II. Formules fondamentales des intérêts composés</h2>
+
+<h3 class="sous_titre">A. Le temps de placement est un nombre entier de période</h3>
+<p class="contenu">
+Désigons par:<br>
+<img src="http://latex.codecogs.com/gif.latex?a" /> le capital initial placé<br>
+<img src="http://latex.codecogs.com/gif.latex?i" /> le taux correspondant à la période c'est à dire, l'intérêt rapporté par un capital de 1<sup>F</sup><br>
+<img src="http://latex.codecogs.com/gif.latex?n" /> le nombre de période<br>
+<img src="http://latex.codecogs.com/gif.latex?A_{n}" /> la valeur acquise par le capital au bout de n période<br>
+On aura le tableau suivant<br>
+
+
+
+<table border>
+            <tr style="font-weight: bold;">
+                <td>Période(année)</td>
+                <td>Capital placé en  debut de période</td>
+                <td>Intérêt produit pendant la période</td>
+                <td>Valeur acquise</td>
+                
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><img src="http://latex.codecogs.com/gif.latex?a" /></td>
+                <td><img src="http://latex.codecogs.com/gif.latex?I_{1}=a*i" /></td>
+                <td><img src="http://latex.codecogs.com/gif.latex?A_{1}=a + a*i =a(1+i)" /></td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="http://latex.codecogs.com/gif.latex?a(1+i)" /></td>
+                <td><img src="http://latex.codecogs.com/gif.latex?I_{2}=a(1+i)*i" /></td>
+                <td><img src="http://latex.codecogs.com/gif.latex?A_{2}=a(1+i)^{2}" /></td>
+                
+            </tr>
+            
+            <tr>
+                <td>3</td>
+                <td><img src="http://latex.codecogs.com/gif.latex?a(1+i)^{2}" /></td>
+                <td><img src="http://latex.codecogs.com/gif.latex?I_{2}=a(1+i)^{2}*i" /></td>
+                <td><img src="http://latex.codecogs.com/gif.latex?A_{2}=a(1+i)^{3}" /></td>
+               
+            </tr>
+			<tr>
+				<td>.</td>
+				<td>.</td>
+				<td>.</td>
+				<td>.</td>
+			</tr>
+			<tr>
+				<td>.</td>
+				<td>.</td>
+				<td>.</td>
+				<td>.</td>
+			</tr>
+            
+            <tr>
+                <td>n-1</td>
+                <td><img src="http://latex.codecogs.com/gif.latex?a(1+i)^{n-2}" /></td>
+                <td><img src="http://latex.codecogs.com/gif.latex?I_{n-1}=a(1+i)^{n-2}*i" /></td>
+                <td><img src="http://latex.codecogs.com/gif.latex?A_{n-1}=a(1+i)^{n-1}" /></td>
+           
+            </tr>
+			<tr>
+                <td>n</td>
+                <td><img src="http://latex.codecogs.com/gif.latex?a(1+i)^{n-1}" /></td>
+                <td><img src="http://latex.codecogs.com/gif.latex?I_{n}=a(1+i)^{n-1}*i" /></td>
+                <td><img src="http://latex.codecogs.com/gif.latex?A_{n}=a(1+i)^{n}" /></td>
+                
+            </tr>
+        </table>
+		<ol type="1">
+			<li>Formule de capitalisation</li>
+			Les valeurs acquise par un capital <var>a</var> à la fin de chacune des <var>n</var> périodes forment une progression géometrique de 1<sup>er</sup> terme: <img src="http://latex.codecogs.com/gif.latex?a(1+i)" />, de raison <img src="http://latex.codecogs.com/gif.latex?(1+i)" /> et de <var>n</var> terme.<br>
+			En progression géometrique on a: 
+			<img src="http://latex.codecogs.com/gif.latex?U_{n}=U_{1}q^{n-1}" /> d'ou<br>
+			<img src="http://latex.codecogs.com/gif.latex?A_{n}=a(1+i)*(1+i)^{n-1}" /><br>
+			<img src="http://latex.codecogs.com/gif.latex?A_{n}=a(1+i)^{n}" /><br>
+			<ol type="a">
+				<li>Calcul du taux de capitalisation <var>(i)</var><br>
+				A partir de la formule de la valeur acquise, on peut déduire le taux soit par l'extraction de racine n<sup>ieme</sup> des 2 membres ou soit  l'appel des proprietés du logarithme décimal au deux membres que voici:<br>
+				<img src="http://latex.codecogs.com/gif.latex?A_{n}=a(1+i)^{n}\Rightarrow&space;(1+i)^n=\frac{A_{n}}{a}" /><br>
+				</li>
+				
+				<li>
+					Calcul du nombre de période <var>n</var><br>
+					La période se déduit de la formule de A en appliquant les proprieté des logarithme aux deux membres d'égalité que voici:<br>
+					
+					<img src="http://latex.codecogs.com/gif.latex?A_{n}=a(1+i)^{n}\Rightarrow&space;(1+i)^n=\frac{A_{n}}{a}" /><br>
+				</li>
+			</ol>
+			
+			<li>
+				La formule des intérêts
+			</li>
+			Dans le tableau précédent, nous remarquons que les intérêts successifs forment une progression géometrique de 1<sup>er</sup> terme <img src="http://latex.codecogs.com/gif.latex?a*i" />, de raison <img src="http://latex.codecogs.com/gif.latex?(1+i)" /> et de <img src="http://latex.codecogs.com/gif.latex?n" /> termes<br>
+			En progression géometrique on a:
+			<img src="http://latex.codecogs.com/gif.latex?U_{n}=U_{1}q^{n-1}" /> d'ou<br>
+			<img src="http://latex.codecogs.com/gif.latex?I_{n}=a*i(1+i)^{n-1}" /> sachant que <img src="http://latex.codecogs.com/gif.latex?I_{1}=a*i\Rightarrow&spaceI_{n}=I_{1}(1+i)^{n-1}" /> d'ou<br>
+			<img src="http://latex.codecogs.com/gif.latex?I_{n}=I_{1}(1+i)^{n-1}" /><br>
+			
+			<li>La somme des intérêts<li>
+			L'intérêt total <img src="http://latex.codecogs.com/gif.latex?I_{T}" /> par un capital <var>a</var> placé à intérêt composé pendant <var>n</var> période est égal à la difference entre sa valeur acquise et sa propre valeur d'où<br>
+			<img src="http://latex.codecogs.com/gif.latex?I_{T}=A_{n}-a" /><br>
+			<img src="http://latex.codecogs.com/gif.latex?I_{T}=a(1+i)^{n}-a=a[(1+i)^n-1]" /><br>
+		</ol>
+	</p>
+	
+	<h3 class="sous_titre">B. Le temps du placement <var>(n)</var> n'est pas un nombre entier de période</h3>
+	<p class="contenu">
+		soit <img src="http://latex.codecogs.com/gif.latex?n=k+\frac{p}{q}" /><var>(ou k est un entier )</var><br>
+		exemple: 2ans 6mois = <img src="http://latex.codecogs.com/gif.latex?(2+\frac{6}{12})annees" /><br>
+		
+		Dans ce cas, 2 solutions sont possibles pour le calcul de la valeur acquise<br>
+		
+		<ol type="1">
+			<li>Solution rationnelle</li>
+			Elle consiste tout d'abord à utiliser la formule générale des intérêts composé pour la partie entière et la formule des intérêts simple pour la partie fractionnaire.<br>
+			Ansi, avec <img src="http://latex.codecogs.com/gif.latex?n=k+\frac{p}{q}" />
+			on a après <var>k</var> période la valeur acquise qui est égale a: <br>
+			<img src="http://latex.codecogs.com/gif.latex?A_{k}=a(1+i)^{k}" /><br>
+			Ensuite on calcul l'intérêt simple pour <img src="http://latex.codecogs.com/gif.latex?A_{k}" /> pendant la fraction <img src="http://latex.codecogs.com/gif.latex?\frac{p}{q}" /> période au taux i. Cet intérêt simple est:<br>
+			
+			<img src="http://latex.codecogs.com/gif.latex?I_{s}=a(1+i)^{k}*i*\frac{p}{q}" /><br>
+			Comme la capitalisation se fait en fin de période, valeur acquise total est :<br>
+			<img src="http://latex.codecogs.com/gif.latex?A_{k+\frac{p}{q}}=a(1+i)^{k}(1+i*\frac{p}{q})" /><br>
+			
+			L'utilisation de l'expression <img src="http://latex.codecogs.com/gif.latex?(1+i*\frac{p}{q}" /> 
+			conduit à la notion de taux proportionnel<br>
+			Deux taux correspondant à des périodes de capitalisations différentes sont dits proportionnels lorsque leur rapport est égal au rapport de leur période de capitalisation respectif. De plus, 2 taux proportionnels conduisent un même capital pour une même durée à des valeurs acquises différentes<br>
+			soient: <br>
+			<img src="http://latex.codecogs.com/gif.latex?i_{a}" />: taux annuel<br>
+			<img src="http://latex.codecogs.com/gif.latex?i_{s}" />: taux semestriel<br>
+			<img src="http://latex.codecogs.com/gif.latex?i_{t}" />: taux trimestriel<br>
+			<img src="http://latex.codecogs.com/gif.latex?i_{m}" />: taux mensuel<br>
+			
+			On a les égalités suivantes par rapport au taux annuel <var>ia</var><br>
+			Pour un taux semestriel proportionnel on a:<br>
+			
+			<img src="http://latex.codecogs.com/gif.latex?i_{a}=2semestres" /><br>
+			<img src="http://latex.codecogs.com/gif.latex?i_{s}=1semestre" /> donc<br>
+			
+			<img src="http://latex.codecogs.com/gif.latex?\frac{i_{a}}{i_{s}}=\frac{2}{1}\Rightarrow &space;i_{s}=\frac{i_{a}}{2}" /><br>
+			
+			Il suffit de répéter la même proceduire pour déduire la formule des autres taux proportionnel<br>
+			
+			<li>Solution commerciale</li>
+			Elle est plus recommandée dans la pratique et consiste à utiliser la formule générale des intérêts composés pour l'ensemble. Comme <img src="http://latex.codecogs.com/gif.latex?n=k+\frac{p}{q}" /> on a:<br>
+			
+			<img src="http://latex.codecogs.com/gif.latex?A_{n}=A_{k+\frac{p}{q}}=a(1+i)^{k+\frac{p}{q}}=a(1+i)^{k}*(1+i)^{\frac{p}{q}}" /><br><br>
+			
+			L'utilisation de l'expression <img src="http://latex.codecogs.com/gif.latex?(1+i)^{\frac{p}{q}}" /> 
+			conduit à la notion de taux équivalent<br>
+			
+			Deux taux correspondant à des périodes de capitalisation différentes sont dits équivalents lorsque pour une même durée de placement, ils conduisent un même capital à une même valeur acquise à intérêt composé<br>
+			En résumé on a les égalités suivantes par rapport au taux annuel<br>
+			
+			Pour un taux semestriel on a:<br>
+			<img src="http://latex.codecogs.com/gif.latex?(1+i_{a})=(1+i_{s})^{2}\Rightarrow&space;i_{s}=(1+i_{a})^{\frac{1}{2}}-1" /><br>
+			IL suffit de répéter la meme proceduire pour déduire la formule des autres taux équivalent<br>
+			
+			
+			
+		</ol>
+	</p>
+	
+	<h2 class="titre">III. Formule d'actualisation d'un capital et escompte à intérêts composés</h2> 
+	<h3 class="sous_titre">1. La valeur actuelle d'un capital</h3>
+	<ol type="a">
+		<li>Définition</li>
+		L'actualisation est la détermination de la valeur actuelle à un taux donnée d'une somme d'argent payable à une époque future, les intérêts composés se retranchant de cette somme<br>
+		
+		Contrairement,  la capitalisation est la détermination à un taux donné de la valeur future d'une somme, les intérêts composés s'ajoutant au capital initial<br>
+		
+		<li>La formule d'actualisation</li>
+		Elle se déduit de la formule de capitalisation, on a:<br>
+		
+<img src="http://latex.codecogs.com/gif.latex?A_{n}=a(1+i)^{n}\Rightarrow&space;a=\frac{A_{n}}{(1+i)^{n}}" /><br>
+<img src="http://latex.codecogs.com/gif.latex?a=A_{n}(1+i)^{-n}" /><br>
+
+<li>Calcul du taux et du nombre de période</li>
+Vous pouvez vous reférer à la partie où nous avons mis les formules concernant la détermination du taux et du  nombre de période dans la partie capitalisation<br>
+
+			</ol>
+			
+			<h3 class="sous_titre">2. Escompte à intérêts composés</h3>
+			L'escompte à intérêts composés noté <var>e</var> est égale à la différence entre la valeur nominale <var>A<sub>n</sub></var> et la valeur actuelle <var>a</var>, on a:<br>
+			
+			<img src="http://latex.codecogs.com/gif.latex?e=A_{n}-a" /> or <br>
+			<img src="http://latex.codecogs.com/gif.latex?a=A_{n}(1+i)^{-n}" /><br>
+			
+			<img src="http://latex.codecogs.com/gif.latex?e=A_{n}[1-(1+i)^{-n}]" /><br>
+	
+	<h3 class="sous_titre">3. Evaluation à intérêts composés à une époque quelconque</h3>
+	Exercice:<br>
+	soit un capital payable à l'époque 0, quelle est sa valeur <var>A<sub>n</sub></var> à l'époque <var>n</var><br>
+	Quelle est sa valeur <var>A<sub>-m</sub></var> à l'époque <var>-m</var><br>
+	
+	<h4><center>Solution</center></h4>
+	
+	Essayez de resoudre cet exercie par vous meme et faite nous part de vos reponse, nous somme a votre disposition pour vous aider au cas où vous etes bloqué sur un point<br> Retrouvez plus de sujets dans la partie publication du site<br>
+	
+	<h2 class="titre">IV. Equivalence à intérêts composés</h2>
+	<h3 class="sous_titre">1. Equivalence de 2 capitaux ou deux effets</h3>
+	2 capitaux sont équivalents à intérêts composés à un moment donné s'ils ont la même valeur actuelle à cette date, le taux étant le même<br>
+	Soient deux capitaux de valeurs nominales <var>A<sub>n1</sub> et A<sub>n2</sub></var> payable respectivement dans <var>n<sub>1</sub> et n<sub>2</sub></var> période au taux <var>i</var>. A l'époque 0, leur valeur actuelle respective seront:<br>
+	
+	<img src="http://latex.codecogs.com/gif.latex?a_{1}=A_{n1}(1+i)^{-n1}" /> et <img src="http://latex.codecogs.com/gif.latex?a_{2}=A_{n2}(1+i)^{-n2}" /><br>
+	Si l'équivalence a eu lieu à l'époque 0, elle se traduira par l'équivalence suivante:<br>
+	<img src="http://latex.codecogs.com/gif.latex?a_{1}=a_{2}\Rightarrow&space;A_{n1}(1+i)^{-n1}=A_{n2}(1+i)^{-n2}s" />
+	
+	<h3 class="sous_titre">2. Equivalence de deux groupes de capitaux ou d'effets</h3>
+	2 groupes de capitaux sont équivalent à intérêts composé à une date donnée si la somme de la valeur actuelle du premier groupe de capitaux est égale à la somme de la valeur actuelle du deuxieme groupe de capitaux<br>
+	soient <var>A<sub>n1</sub> , A<sub>n2</sub> A<sub>n3</sub></var> le premier groupe de 3 capitaux puis<br>
+	<var>B<sub>n1</sub> , B<sub>n2</sub> b<sub>n3</sub></var> le deuxieme groupe de 3 capitaux<br>
+	
+	l'équivalence se traduit alors par:<br>
+	
+	<img src="http://latex.codecogs.com/gif.latex?A_{n1}(1+i)^{-n1}+A_{n2}(1+i)^{-n2}+A_{n3}(1+i)^{-n3}=B_{n1}(1+i)^{-n1}+B_{n2}(1+i)^{-n2}+B_{n3}(1+i)^{-n3}" /><br>
+	
+	<h2 class="titre">V. Echéance commune et échance moyenne</h2>
+	<h3 class="sous_titre">1. Echéance commune</h3>
+	La notion d'échance commune est celui de la détermination de la valeur nominale <var>K<sub>x</sub></var> ou de l'échéance <var>x</var> de l'effet unique équivalent à plusieur effets payable à des échéances différente<br>
+	A l'époque 0, l'équation d'équivalence est la suivante:<br>
+	<img src="http://latex.codecogs.com/gif.latex?k_{x}(1+i)^{-x}=A_{n1}(1+i)^{-n1}+A_{n2}(1+i)^{-n2}+A_{n3}(1+i)^{-n3}" /> <br>
+	
+	Nous allons approfondir tout ceci dans les exercices dans la partie publication du site<br>
+	
+	<h3 class="sous_titre">Echéance moyenne</h3>
+	C'est une date à déterminer, à la quelle le débiteur peut s'acquitter de payer en une fois plusieur capitaux (effets) payable à des époques différentes par un paiement unique est égale à la sommes des valeurs nominales des effets à remplacer<br>
+	
+	A l'époque 0, l'équation d'équivalence est la suivante:<br>
+	<img src="http://latex.codecogs.com/gif.latex?k_{x}(1+i)^{-n}=A_{n1}(1+i)^{-n1}+A_{n2}(1+i)^{-n2}+A_{n3}(1+i)^{-n3}" /> <br>
+	
+	
+	
+
+</body>
+
+</html>
