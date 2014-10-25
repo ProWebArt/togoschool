@@ -1,6 +1,6 @@
 <?php
 $auth = 0;
-include(dirname(__FILE__).'/../../lib/includes_head.php');
+include dirname(__FILE__).'/../../lib/includes_head.php';
 ?>
 <article>
     <h1 class="titre">Equation-Inequation-Systeme</h1>
@@ -92,4 +92,4 @@ Résoudre une telle équation revient à déterminer les racines de P(x).
 <p></p>
 <p></p>
 </article>
-<?php include(dirname(__FILE__).'/../../lib/includes_foot.php'); ?>
+<?php include dirname(__FILE__).'/../../lib/includes_foot.php'; ?>

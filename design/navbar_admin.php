@@ -9,16 +9,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-                      <a class="navbar-brand" href="/coursenligne/admin/index.php">Home</a>
+                      <a class="navbar-brand" href="/togoschool/admin/index.php">Home</a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="/coursenligne/admin/utilisateurs.php">Utilisateurs</a></li>
-                            <li><a href="/coursenligne/admin/cours_admin.php">Cours</a></li>
-                            <li><a href="/coursenligne/admin/reception_admin.php">Reception</a></li>
-                            <li><a href="/coursenligne/admin/publication_admin.php">Publication</a></li>
-                            <li><a href="/coursenligne/admin/faq_admin.php">FAQ</a></li>
+                            <li><a href="/togoschool/admin/utilisateurs.php">Utilisateurs</a></li>
+                            <li><a href="/togoschool/admin/cours_admin.php">Cours</a></li>
+                            <li><a href="/togoschool/admin/reception_admin.php">Reception</a></li>
+                            <li><a href="/togoschool/admin/publication_admin.php">Publication</a></li>
+                            <li><a href="/togoschool/admin/faq_admin.php">FAQ</a></li>
                         </ul>
                         <div class="container">
                         <ul class="nav navbar-nav pull-right">
@@ -29,11 +29,11 @@
                                 <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Mes messages <span class="badge">12</span></a></li>
                                 <li><a href="#"><span class="glyphicon glyphicon-stats"></span> Mes statistiques</a></li>
                                 <li class="divider"></li>
-                                <li><a href="/coursenligne/logout.php"><span class="glyphicon glyphicon-log-out"></span> Se deconnecter</a></li>
+                                <li><a href="/togoschool/logout.php"><span class="glyphicon glyphicon-log-out"></span> Se deconnecter</a></li>
                             </ul>
                             </li>
                         </ul>
-                        <form class="navbar-form pull-left" role="search" action="/coursenligne/search.php" method="get">
+                        <form class="navbar-form pull-left" role="search" action="/togoschool/search.php" method="get">
                             <div class="form-group">
                                 <div class="input-group">
                                     <input type="text" class="form-control input-sm" name="search" id="search" placeholder="Recherche">

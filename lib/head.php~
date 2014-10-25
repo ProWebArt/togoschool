@@ -7,7 +7,7 @@
     <title>Togoschool</title>
     
     <!-- Bootstrap css -->
-    <link href="/togoschool/css/bootstrap.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <!-- Mon CSS perso -->
     <link href="/togoschool/css/perso.css" rel="stylesheet">
     <!-- Font Awesome -->

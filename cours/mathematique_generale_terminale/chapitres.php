@@ -1,6 +1,6 @@
 <?php
 $auth = 0;
-include(dirname(__FILE__).'/../../lib/includes_head.php');
+include dirname(__FILE__).'/../../lib/includes_head.php';
 ?>
 <div class="panel panel-primary">
     <table class="table table-bordered table-responsive table-hover">
@@ -46,4 +46,4 @@ include(dirname(__FILE__).'/../../lib/includes_head.php');
         </tbody>
     </table>
 </div>
-<?php include(dirname(__FILE__).'/../../lib/includes_foot.php'); ?>
+<?php include dirname(__FILE__).'/../../lib/includes_foot.php'; ?>

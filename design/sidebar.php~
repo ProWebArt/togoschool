@@ -36,17 +36,17 @@
                     <section class="aside">
                         <div class="panel panel-primary">
                             <li class="list-group-item active">SPONSORS</li>
-                            <img src="/togoschool/images/greenpage.gif" style="width: 100%" alt="" />
+                            <img src="/coursenligne/images/greenpage.gif" style="width: 100%" alt="" />
                         </div>
                     </section>
                     <section class="aside">
                         <div class="panel panel-primary">
                             <li style="margin-bottom: 5px;" class="list-group-item active">CONNECT WITH US</li>
-                            <a href="#"><img src="/togoschool/images/face.png" alt="facebook" class="img-rounded"/></a>
-                            <a href="#"><img src="/togoschool/images/vimeo.png" alt="vimeo" class="img-rounded"/></a>
-                            <a href="#"><img src="/togoschool/images/flick.png" alt="flickr" class="img-rounded"/></a>
-                            <a href="#"><img src="/togoschool/images/twitt.png" alt="twitter" class="img-rounded"/></a>
-                            <a href="#"><img src="/togoschool/images/fiverr.png" alt="fiverr" class="img-rounded" width="100%"/></a>
+                            <a href="#"><img src="/coursenligne/images/face.png" alt="facebook" class="img-rounded"/></a>
+                            <a href="#"><img src="/coursenligne/images/vimeo.png" alt="vimeo" class="img-rounded"/></a>
+                            <a href="#"><img src="/coursenligne/images/flick.png" alt="flickr" class="img-rounded"/></a>
+                            <a href="#"><img src="/coursenligne/images/twitt.png" alt="twitter" class="img-rounded"/></a>
+                            <a href="#"><img src="/coursenligne/images/fiverr.png" alt="fiverr" class="img-rounded" width="100%"/></a>
                         </div>
                     </section><!-- end of sidebar -->
                 </div>

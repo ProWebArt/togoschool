@@ -1,6 +1,6 @@
 <?php
 $auth = 0;
-include(dirname(__FILE__).'/../../lib/includes_head.php');
+include dirname(__FILE__).'/../../lib/includes_head.php';
 ?>
 <article>
     <h2 class="titre">I. Rapport</h2>
@@ -402,5 +402,5 @@ include(dirname(__FILE__).'/../../lib/includes_head.php');
         </ol>
     </p>
 </article>
-<?php include(dirname(__FILE__).'/../../lib/includes_foot.php'); ?>
+<?php include dirname(__FILE__).'/../../lib/includes_foot.php'; ?>
                     
