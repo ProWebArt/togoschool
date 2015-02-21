@@ -1,4 +1,6 @@
-<?php include dirname(__FILE__).'/lib/includes_head.php'; ?>
+<?php 
+$auth = 0;
+include dirname(__FILE__).'/lib/includes_head.php'; ?>
 
 
 <div class="row" style="text-align: center">

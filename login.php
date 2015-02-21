@@ -1,6 +1,6 @@
 <?php
 $auth = 0;
-include 'lib/includes.php';
+include dirname(__FILE__).'/lib/includes.php';
 
 if(!empty($_POST["email"]) && !empty($_POST["password"])){
     $email= htmlspecialchars($_POST["email"]);
@@ -32,7 +32,7 @@ include dirname(__FILE__).'/design/navbar_default.php';
 ?>
     <body>
         <section class="container contenu">
-            <div class="col-sm-6 col-sm-offset-3 login" style="margin-top: 100px">
+            <div class="col-sm-6 col-sm-offset-3" style="margin-top: 100px">
                 <div class="panel panel-success" style="text-align: center">
                     <div class="panel-heading">
                         <h2 class="titre">CONNEXION</h2>

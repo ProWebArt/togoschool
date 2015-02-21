@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $auth = 0;
 include dirname(__FILE__).'/lib/includes_head.php';
 echo flash(); ?>
@@ -7,7 +7,7 @@ echo flash(); ?>
                         <h2 class="titre">Pourquoi togoschool.com ?</h2>
                         <img src="images/students.jpg" class="alignleft" alt="togoschool" class="alignleft" />
                         <p>
-                            <a href="http://www.togoschool.com">togoschool</a> est la première platform de cours en ligne 100% togolaise développée par 
+                            <a href="http://www.togoschool.com">togoschool</a> est la première platforme de cours en ligne 100% togolaise développée par 
                             deux étudiants togolais passionnés du web <span style="font-weight: bold">FAUGAN BIDI</span> et 
                             <span style="font-weight: bold">AMEGBLEAME KOMLANVI ANTONIO-CREDO</span>.<br/>
                             Il a été pensé et developpé dans le soucis premier de servir de support en ligne de cours du système d'enseignement togolais, 

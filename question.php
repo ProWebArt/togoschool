@@ -1,4 +1,6 @@
-<?php include 'lib/includes_head.php'; ?>
+<?php
+$auth = 0;
+include 'lib/includes_head.php'; ?>
 
 <form role="form" method="post" action="recup_question.php" enctype="multipart/form-data">
                     <fieldset id="fieldset">
